@@ -1,0 +1,106 @@
+/* #ffd361 */
+
+@font-face {
+    font-family: Danbury;
+    src: url(Danbury.otf);
+}
+
+.danbury {
+    font-family: Danbury;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url(https://images.pexels.com/photos/9456063/pexels-photo-9456063.jpeg);
+    background-size: cover;
+    background-position: 0% 70%;
+}
+
+.hero-content {
+    padding: 11em 0;
+}
+
+.text-bg-primary {
+    background-color: #ffc107!important;
+    padding: 8px 15px;
+}
+
+.content {
+    padding: 6em 0;
+}
+
+.car-wrapper {
+    background: #ffe69b;
+    padding: 30px;
+    border-radius: 15px;
+    border: 5px solid white;
+}
+
+.car-wrapper img {
+    width: 120%;
+    float: right;
+    margin: 2em 0;
+}
+
+.car-wrapper .value {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.mh-icon {
+    background: #e9cf83;
+    padding: 12px;
+    border-radius: 500px;
+    margin-bottom: 5px;
+}
+
+.rent-button {
+    background: #ffc107;
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 2em;
+    transition: all ease 0.2s;
+}
+
+.rent-button:hover {
+    background: #ce9c07;
+    color: #000;
+}
+
+.lej {
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(https://images.pexels.com/photos/2127733/pexels-photo-2127733.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding: 10em 0;
+}
+
+.order-image {
+    margin-top: -8em;
+    background: #fff;
+    padding: 30px 30px;
+    border-radius: 500px;
+    width: 50%;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #ffffff!important;
+    border-color: transparent!important;
+    background: #ffc107!important;
+    border-radius: 3px!important;
+}
+
+.nav-tabs .nav-link {
+    color: #ffffff!important;
+    text-align: left!important;
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: #1c1c1c!important;
+    border-radius: 3px!important;
+}
